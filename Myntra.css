@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+header{
+  width: 100%;
+  background: #faf9f9;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  width: 175px;
+  margin-top: 12px;
+}
+.logo img{
+  width: 107px;
+  padding-left: 40px;
+}
+
+header navbar{
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+}
+
+header navbar a{
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 31px;
+  border-bottom: 5px solid #faf9f9;
+}
+
+header navbar a:hover{
+  border-bottom: 5px solid rgb(105, 195, 234);
+}
+
+.search{
+  margin: 23px 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.search .search_icon{
+  margin: auto;
+  padding: 10px;
+  background-color: #f3eded;
+}
+
+.search input{
+  width: 330px;
+  font-size: 15px;
+  border: none;
+  background-color: #f3eded;
+}
+
+header .cart{
+  display: flex;
+  padding: 0px 35px;
+}
+
+header .cart .icon{
+  margin-top: 31px;
+  padding: 0 10px;
+}
+
+main{
+  margin-top: 180px;
+}
+main .banner img{
+  width: 100%;
+}
+
+main .offer h2{
+  letter-spacing: 5px;
+}
+
+main .offer{
+  margin-top: 100px;
+  text-align: center;
+}
+
+main .offer .offer_image{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.deal{
+  margin-top: 100px;
+}
+
+main .deal{
+  margin-top: 100px;
+  text-align: center;
+}
+
+main .deal h2{
+  letter-spacing: 5px;
+}
+
+main .deal .deal_image{
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+footer{
+  background: #faf9f9;
+  margin-top: 70px;
+  padding: 25px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer .list{
+  margin-top: 15px;
+}
+
+footer .list a{
+  display: block;
+  text-decoration: none;
+  color: black;
+
+}
